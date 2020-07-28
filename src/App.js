@@ -10,12 +10,21 @@ const App = () => {
 
   return (
     <div className="App">
-      <h1>Counter { counter }</h1>
-      <button onClick={()=> dispatch(increment())}>Increment+</button>
-      <button onClick={()=> dispatch(decrement())}>Decrement</button>
-      
-      <button onClick={()=> dispatch(incrementBy(5))}>Inc. by 5*</button>      
-      <button onClick={()=> dispatch(decrementBy(5))}>Dec. by 5*</button>      
+      <div className="App-loader">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>        
+      </div>
+     
+      <div>
+        <h1>Counter { counter }</h1>
+        <button className="App-button" onClick={()=> dispatch(increment())}>Increment+</button>
+        <button className="App-button" onClick={()=> dispatch(decrement())}>Decrement</button>
+        
+        <button className="App-button" onClick={()=> dispatch(incrementBy(5))}>Inc. by 5*</button>      
+        <button className="App-button" onClick={()=> dispatch(decrementBy(5))}>Dec. by 5*</button>      
+      </div>
     </div>
   
 )}
