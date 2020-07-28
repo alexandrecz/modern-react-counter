@@ -2,6 +2,7 @@ A simple React project using useSelector + useDispatch from React-Redux.
 
 ![alt text](https://github.com/alexandrecz/modern-react-counter/blob/master/img/app.png)
 
+Take a look on the Netlify [https://upbeat-wright-72372a.netlify.app] 
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
